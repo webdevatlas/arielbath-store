@@ -1,0 +1,7 @@
+mountpoints:
+  /:
+    url: https://content.da.live/webdevatlas/arielbath-store/
+    type: markup
+
+folders:
+  /products/: /products/default
