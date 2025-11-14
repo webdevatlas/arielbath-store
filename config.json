@@ -1,0 +1,41 @@
+{
+  "public": {
+    "default": {
+      "commerce-core-endpoint": "https://headless-stg.atlasusa.net/graphql",
+      "commerce-endpoint": "https://catalog-service.adobe.io/graphql",
+      "headers": {
+        "all": {
+          "Store": "default"
+        },
+        "cs": {
+          "Magento-Store-Code": "corporate",
+          "Magento-Store-View-Code": "default",
+          "Magento-Website-Code": "default",
+          "x-api-key": "27101b345bef4a21bec264e31b15351e",
+          "Magento-Environment-Id": "caa8c5d5-645e-465c-9c64-617b76d062a3"
+        }
+      },
+      "commerce-assets-enabled": false,
+      "analytics": {
+        "base-currency-code": "USD",
+        "environment": "Testing",
+        "environment-id": "caa8c5d5-645e-465c-9c64-617b76d062a3",
+        "store-code": "corporate",
+        "store-id": "corporate",
+        "store-name": "Atlas USA",
+        "store-url": "https://headless-stg.atlasusa.net/",
+        "store-view-code": "default",
+        "store-view-id": "default",
+        "store-view-name": "Atlas USA",
+        "website-code": "default",
+        "website-id": "default",
+        "website-name": "Atlas USA"
+      },
+      "plugins": {
+        "picker": {
+          "rootCategory": "10"
+        }
+      }
+    }
+  }
+}
